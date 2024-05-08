@@ -55,7 +55,7 @@ body {
 
   @media only screen and (max-device-width: 460px) {
     .player{
-      height: 95vh;
+      height: 45vh;
       display: block;
       align-items: center;
       flex-direction: column;
