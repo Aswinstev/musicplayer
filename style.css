@@ -117,6 +117,10 @@ body {
     opacity: 0.8;
     transition: opacity .2s;
     }
+
+    .playpause-track{
+      color: #4c74d3;
+    }
     
     .repeat-track:hover,
     .random-track:hover,

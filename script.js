@@ -34,6 +34,12 @@ const music_list = [
         music : 'music/fallingdown.mp3'
     },
     {
+        img : 'images/ko.jpeg',
+        name : 'Ennamo Yeadho',
+        artist : 'Aalaap Raju & Prashanthini',
+        music : 'music/Ennamo.mp3'
+    },
+    {
         img : 'images/faded.png',
         name : 'Faded',
         artist : 'Alan Walker',
@@ -68,7 +74,7 @@ function loadTrack(track_index){
 }
 
 function random_bg_color(){
-    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
+    let hex = [];
     let a;
 
     function populate(a){
