@@ -50,6 +50,7 @@ body {
         flex-direction: column;
         justify-content: center;
       }
+
   }
 
   @media only screen and (max-device-width: 460px) {
@@ -59,7 +60,7 @@ body {
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      float: left;
+      float: unset;
     }
 }
 
