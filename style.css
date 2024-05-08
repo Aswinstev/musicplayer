@@ -56,11 +56,22 @@ body {
   @media only screen and (max-device-width: 460px) {
     .player{
       height: 95vh;
-      display: flex;
+      display: block;
       align-items: center;
       flex-direction: column;
       justify-content: center;
       float: unset;
+      margin-top: 100px;
+    }
+    .repeat-track,
+    .random-track,
+    .playpause-track,
+    .prev-track,
+    .next-track {
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s;
+    font-size: xx-small;
     }
 }
 
